@@ -14,12 +14,10 @@ body {
 }
  
 .imageContainer {
-  float: left;
-  width: 620px;
+  width: 500px;
 }
  
 .textContainer {
-  float: left;
   width: 300px;
   margin-left: 20px;
   margin-top: 20px;
