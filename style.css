@@ -3,14 +3,14 @@
 @import url(https://fonts.googleapis.com/css?family=Fredericka+the+Great|Lato);
 
 body {
-  background-color: blue;
+  background-color: SteelBlue;
 }
  
 .pageContainer {
   width: 940px;
   margin: 20px auto 0 auto;
   padding: 20px;
-  background-color: lightgreen;
+  background-color: Khaki;
 }
  
 .imageContainer {
