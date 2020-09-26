@@ -17,8 +17,8 @@ body {
  
 .textContainer {
   width: 300px;
-  margin-left: 20px;
-  margin-top: 20px;
+  margin: 20px;
+  padding: 20px;
 }
 
 img {
