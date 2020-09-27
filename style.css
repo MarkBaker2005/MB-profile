@@ -7,7 +7,7 @@ body {
 .pageContainer {
   width: 500px;
   margin: auto;
-  padding: 20px;
+  padding: auto;
   background-color: Khaki;
 }
  
@@ -42,7 +42,7 @@ p, li, h2 {
 /* stylizing the
    links */
 
-a {
+a: {
   text-align: center;
 }
 
@@ -64,11 +64,6 @@ a:active {
 
 
 
-
-/* ---- Advanced ---- */
-/* This tag is a bit advanced for this lesson,  
-   but is needed to wrap the pageContainer 
-   around any sized content that is floated within it. */
 
 .pageContainer:after { 
   content: " ";
