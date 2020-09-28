@@ -39,6 +39,9 @@ p, li, h2 {
   text-align: center;
 }
 
+.footer {
+  background-color: black;
+}
 /* stylizing the
    links */
 
