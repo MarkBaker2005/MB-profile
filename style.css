@@ -3,6 +3,10 @@
 body {
   background-color: SteelBlue;
 }
+
+header {
+  background-color: gray;
+}
  
 .pageContainer {
   width: 500px;
