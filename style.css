@@ -7,23 +7,28 @@ body {
 /* background color for the header under the image */
 
 header {
-  background-color: gray;
+  background-color: darkslategrey;
 }
  
 /* setting the size of the page within the background */
 
-.pageContainer {
+.page {
   width: 500px;
   margin: auto;
   padding: 90px;
   background-color: Khaki;
 }
+
+hr {
+  padding: 10px;
+  background-color: SteelBlue;
+}
  
-.imageContainer {
+.image {
   width: 500px;
 }
  
-.textContainer {
+.text {
   width: 500px;
   margin: auto;
   padding: 20px;
@@ -39,13 +44,27 @@ h1 {
   color: Navy;
   text-align: center;
 }
+
+h2 {
+  font-family: fantasy;
+  font-size: 44px;
+  color: Navy;
+  text-align: center;
+}
+
+h3 {
+  font-family: Arial;
+  font-size: 28px;
+  text-align: center;
+}
  
-p, li, h2 {
+p, li {
   font-family: 'Lato', sans-serif;
   font-size: 22px;
   color: #51473b;
-  text-align: center;
+  text-align: left;
 }
+
 
 footer {
   background-color: black;
@@ -71,14 +90,5 @@ a:hover {
 
 a:active {
   color: yellow;
-}
-
-
-
-
-.pageContainer:after { 
-  content: " ";
-  display: table;
-  clear: both;
 }
  
